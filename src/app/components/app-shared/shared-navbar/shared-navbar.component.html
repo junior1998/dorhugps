@@ -1,0 +1,14 @@
+<nav class="base-navbar">
+    <div class="base-contenedor_navbar">
+        <div class="base-logo">
+            <img src="../../../../assets/dorhu-logo.png" alt="">
+        </div>
+        <div class="base-items">
+            <a href="#encabezado" [ngClass]="{'activa':estadoSeccion === 'Inicio'}" class="navbar-a">Inicio</a>
+            <a href="#sercicios" [ngClass]="{'activa':estadoSeccion === 'Servicios'}" class="navbar-a">Servicios</a>
+            <a href="#detalles" [ngClass]="{'activa':estadoSeccion === 'GPS'}" class="navbar-a">GPS</a>
+            <a href="#compatibilidad" [ngClass]="{'activa':estadoSeccion === 'Compatibilidad'}" class="navbar-a">Compatibilidad</a>
+            <a href="#" class="button-obtener_aplicacion">Login GPS</a>
+        </div>
+    </div>
+</nav>
