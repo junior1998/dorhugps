@@ -8,8 +8,57 @@ import { Component, OnInit } from '@angular/core';
 export class InicioComponent implements OnInit {
 
   constructor() { }
- 
 
+  // ====================================================
+  //    Matriz de una sola dimension, con el propocito
+  //     de manejar los datos de 'Nuestros servicio',
+  //      para una facil manipulacion en un futuro.
+  // ==================================================
+ 
+  contenidoCarta = [
+    {
+      icono: '../../../../assets/icono_servicios/iconos7.png',
+      titulo: 'Apagado y encendido del motor.',
+      enlace: '#',
+      // tslint:disable-next-line: max-line-length
+      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
+    },
+    {
+      icono: '../../../../assets/icono_servicios/iconos6.png',
+      titulo: 'Georeferencias',
+      enlace: '#',
+      // tslint:disable-next-line: max-line-length
+      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
+    },
+    {
+      icono: '../../../../assets/icono_servicios/iconos5.png',
+      titulo: 'Límite de velocidad',
+      enlace: '#',
+      // tslint:disable-next-line: max-line-length
+      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
+    },
+    {
+      icono: '../../../../assets/icono_servicios/iconos4.png',
+      titulo: 'Historial y Reportes',
+      enlace: '#',
+      // tslint:disable-next-line: max-line-length
+      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
+    },
+    {
+      icono: '../../../../assets/icono_servicios/iconos3.png',
+      titulo: ' Seguimiento en tiempo real',
+      enlace: '#',
+      // tslint:disable-next-line: max-line-length
+      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
+    },
+    {
+      icono: '../../../../assets/icono_servicios/iconos2.png',
+      titulo: 'Monitoreo y control en tiempo real',
+      enlace: '#',
+      // tslint:disable-next-line: max-line-length
+      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
+    }
+  ];
 
   ngOnInit() {
 

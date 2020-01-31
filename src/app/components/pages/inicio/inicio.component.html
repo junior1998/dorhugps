@@ -1,8 +1,54 @@
 <div id="encabezado_height" class="base-encabezado">
     <strong class="strong-desaparecido" id="encabezado"></strong>
+    <div class="base-contenedor_encabezado">
+        <div class="base-texto">
+            <div class="base-contedor_texto">
+                <div class="base-titulo_texto">
+                    <span class="span-titulo">
+                        ¿Quieres llevar tu rent a car al siguiente nivel? PilotSystem</span>
+                </div>
+                <div class="base-descripction_texto">
+                    <span class="span-descripcion">Pilot es un sistema de administración y facturación de rent a car online, adaptado a dispositivos móviles.</span>
+                </div>
+                <div class="base-buton_texto">
+                    <button type="button" class="button-informacion"> Más información </button>
+                </div>
+            </div>
+        </div>
+        <div class="base-imagen">
+            <div class="base-contenedor_imagen"></div>
+        </div>
+    </div>
 </div>
 <div id="servicios_height" class="base-servicios">
     <strong class="strong-desaparecido" id="sercicios"></strong>
+    <div class="base-contenedor_servicio">
+        <div class="base-interior_servicio">
+            <div class="base-titulo_servico">
+                <h1>Nuestros <span class="span-servicio">servicios</span></h1>
+            </div>
+            <div class="base-contenido_servicios">
+
+                <div *ngFor="let Carta of contenidoCarta" class="base-contenedor_carta">
+                    <div class="base-interior_carta">
+                        <div class="base-carta_icon">
+                            <img src='{{Carta.icono}}' alt="">
+                        </div>
+                        <div class="base-carta_titulo">
+                            <span class="span-carta_titulo"> {{Carta.titulo}} </span>
+                        </div>
+                        <div class="base-carta_descripcion">
+                            <span class="span-carta_descripcion">{{Carta.descripcion}}</span>
+                        </div>
+                        <div class="base-carta_informacion">
+                            <span class="span-carta_informacion"> <a href="{{Carta.enlace}}">Más información</a> </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
 <div id="detalles_height" class="base-detalles">
     <strong class="strong-desaparecido" id="detalles"></strong>

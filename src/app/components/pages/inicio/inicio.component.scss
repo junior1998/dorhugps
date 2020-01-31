@@ -1,16 +1,245 @@
 .base-encabezado {
     width: 100%;
-    height: 600px;
-    background: red;
+    height: 400px;
+    background: #ffffff;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    .base-contenedor_encabezado {
+        width: calc(80% - 10px);
+        height: 100%;
+        // background: pink;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5px;
+        .base-texto {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .base-contedor_texto {
+                width: 100%;
+                height: auto;
+                // background: salmon;
+                display: flex;
+                flex-direction: column;
+                .base-titulo_texto {
+                    width: 100%;
+                    min-height: 50%;
+                    height: auto;
+                    // background: silver;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding-top: 10px;
+                    // padding-bottom: 10px;
+                    .span-titulo {
+                        font-size: 43px;
+                        color: rgb(70, 70, 70);
+                        font-style: normal;
+                        font-weight: 700;
+                        text-align: left;
+                    }
+                }
+                .base-descripction_texto {
+                    width: 100%;
+                    height: 25%;
+                    // background: rgb(182, 63, 83);
+                    display: flex;
+                    justify-items: flex-start;
+                    align-items: center;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    .span-descripcion {
+                        font-size: 18px;
+                        text-align: left;
+                        font-style: normal;
+                        font-weight: 500;
+                        color: rgb(75, 75, 75);
+                    }
+                }
+                .base-buton_texto {
+                    width: 100%;
+                    height: 25%;
+                    // background: saddlebrown;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    .button-informacion {
+                        padding: 10px;
+                        color: white;
+                        background: rgb(197, 52, 52);
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 500;
+                        border: none;
+                        border-radius: 3px;
+                        cursor: pointer;
+                    }
+                    .button-informacion:hover {
+                        padding: 10px;
+                        color: white;
+                        background: brown;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 550;
+                        border: none;
+                        border-radius: 3px;
+                        transition: all .4s ease;
+                    }
+                }
+            }
+        }
+        .base-imagen {
+            width: 50%;
+            height: 100%;
+            // background: greenyellow;
+            display: flex;
+            align-items: center;
+            .base-contenedor_imagen {
+                width: 100%;
+                height: 80%;
+                background: brown;
+            }
+        }
+    }
 }
 
 .base-servicios {
     width: 100%;
-    height: 600px;
-    background: rgb(0, 119, 255);
+    height: auto;
+    // background: rgb(36, 172, 36);
     // margin-top: -75px;
     position: relative;
+    .base-contenedor_servicio {
+        width: 100%;
+        height: 100%;
+        background: #fafafa;
+        border-top: 1px solid #ebe9e9;
+        display: flex;
+        justify-content: center;
+        .base-interior_servicio {
+            width: calc(80% - 0px);
+            height: 100%;
+            // background: green;
+            // padding: 0 5px;
+            .base-titulo_servico {
+                width: 100%;
+                height: 100px;
+                // background: skyblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h1 {
+                    text-align: center;
+                    font-size: 45px;
+                    color: rgb(39, 39, 39);
+                    font-weight: 550;
+                    font-style: normal;
+                    .span-servicio {
+                        color: #c30000;
+                        font-weight: 560;
+                    }
+                }
+            }
+            .base-contenido_servicios {
+                width: 100%;
+                height: calc(100% - 100px);
+                // background: tomato;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                // grid-template-columns: repeat(3, 1fr);
+                // grid-template-rows: repeat(2, 1fr);
+                // grid-template-areas: "base-contenedor_carta";
+                // margin-bottom: 50px;
+                .base-contenedor_carta {
+                    // background: slateblue;
+                    // padding: 20px;.
+                    // grid-gap: 10px;
+                    width: 33.33%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    .base-interior_carta {
+                        width: calc(95% - 20px);
+                        height: calc(100% - 20px);
+                        background: rgb(255, 255, 255);
+                        border-radius: 5px;
+                        padding: 10px 10px;
+                        margin-bottom: 50px;
+                        .base-carta_icon {
+                            width: 100%;
+                            height: auto;
+                            // background: tomato;
+                            // padding-bottom: 5px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .base-carta_titulo {
+                            width: 100%;
+                            height: auto;
+                            // background: red;
+                            // padding-bottom: 5px;
+                            padding: 5px 0px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .span-carta_titulo {
+                                font-size: 25px;
+                                color: rgb(58, 58, 58);
+                                font-style: normal;
+                                text-align: center;
+                                font-weight: 600;
+                                text-align: center;
+                            }
+                        }
+                        .base-carta_descripcion {
+                            width: 100%;
+                            height: auto;
+                            // background: rgb(133, 158, 23);
+                            // padding-bottom: 5px;
+                            padding: 5px 0px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .span-carta_descripcion {
+                                font-size: 16px;
+                                color: rgb(109, 109, 109);
+                                font-style: normal;
+                                font-weight: 550;
+                                text-align: center;
+                            }
+                        }
+                        .base-carta_informacion {
+                            width: 100%;
+                            height: auto;
+                            // background: rgb(23, 82, 158);
+                            padding: 5px 0px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .span-carta_informacion {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 550;
+                                text-align: center;
+                                a {
+                                    text-decoration: none;
+                                    color: #c30000;
+                                }
+                            }
+                        }
+                    }
+                    // grid-area: base-contenedor_carta;
+                }
+            }
+        }
+    }
 }
 
 .base-detalles {
