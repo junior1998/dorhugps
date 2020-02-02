@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shared-footer.component.scss']
 })
 export class SharedFooterComponent implements OnInit {
+  
+  redesSociales = [
+    {
+      nommbre: 'facebook',
+      icono: 'fa-facebook-f',
+      enlace: 'https://www.facebook.com/DORHUGPS/'
+    }
+  ];
 
   constructor() { }
 

@@ -1,1 +1,17 @@
-<p>shared-footer works!</p>
+<div class="base-contenedor-footer">
+    <div class="base-interior-footer">
+        <div class="base-derechos">
+            <p class="parrafo-footer">
+                © Copyright 2020 - 2024 Dorhu - Todos los derechos reservados
+            </p>
+        </div>
+        <div class="base-redes-sociales">
+            <div *ngFor="let redSocial of redesSociales" class="base-red_social">
+                <a href="{{redSocial.enlace}}" target="_blank" title="{{redSocial.nommbre}}">
+                    <i class='fab {{redSocial.icono  }}'></i>
+                </a>
+                <!-- <i class="fab fa-facebook-f"></i> -->
+            </div>
+        </div>
+    </div>
+</div>
