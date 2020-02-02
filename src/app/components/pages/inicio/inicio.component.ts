@@ -19,14 +19,14 @@ export class InicioComponent implements OnInit {
     {
       icono: '../../../../assets/icono_servicios/iconos7.png',
       titulo: 'Apagado y encendido del motor.',
-      enlace: '#',
+      enlace: '#gps_card1',
       // tslint:disable-next-line: max-line-length
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
     },
     {
       icono: '../../../../assets/icono_servicios/iconos6.png',
       titulo: 'Georeferencias',
-      enlace: '#',
+      enlace: '#gps_card2',
       // tslint:disable-next-line: max-line-length
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
     },
@@ -53,7 +53,7 @@ export class InicioComponent implements OnInit {
     },
     {
       icono: '../../../../assets/icono_servicios/iconos2.png',
-      titulo: 'Monitoreo y control en tiempo real',
+      titulo: 'Control de flotas',
       enlace: '#',
       // tslint:disable-next-line: max-line-length
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
