@@ -1,81 +1,134 @@
-.base-contenedor-footer {
-    width: 100%;
-    height: 100%;
-    // background: red;
-    display: flex;
-    justify-content: center;
-    .base-interior-footer {
-        width: 90%;
-        max-width: 1500px;
-        height: 100%;
-        // background: brown;
+    .base-contenedor-footer {
+        width: 100%;
+        height: 80px;
+        // background: red;
         display: flex;
-        justify-content: space-between;
-        .base-derechos {
-            width: auto;
+        justify-content: center;
+        .base-interior-footer {
+            width: 90%;
+            max-width: 1500px;
             height: 100%;
-            // background: rgb(17, 46, 141);
-            padding: 0 10px;
+            // background: brown;
             display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            .parrafo-footer {
-                font-size: 16px;
-                color: rgb(255, 255, 255);
-                font-weight: 550;
-                text-align: center;
-                span {
-                    a {
-                        color: rgb(233, 233, 233);
-                        font-size: 16px;
-                        width: 100%;
-                        height: 100%;
-                        text-decoration: none;
+            justify-content: space-between;
+            .base-derechos {
+                width: auto;
+                height: 100%;
+                // background: rgb(17, 46, 141);
+                padding: 0 10px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .parrafo-footer {
+                    font-size: 16px;
+                    color: rgb(255, 255, 255);
+                    font-weight: 550;
+                    text-align: center;
+                    span {
+                        a {
+                            color: rgb(233, 233, 233);
+                            font-size: 16px;
+                            width: 100%;
+                            height: 100%;
+                            text-decoration: none;
+                        }
                     }
                 }
             }
-        }
-        .base-redes-sociales {
-            width: 150px;
-            height: 100%;
-            // background: hotpink;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-items: center;
-            justify-content: flex-end;
-            .base-red_social {
-                width: 40px;
-                height: 40px;
-                background: white;
-                border-radius: 100%;
-                margin-left: 10px;
+            .base-redes-sociales {
+                width: 150px;
+                height: 100%;
+                // background: hotpink;
                 display: flex;
-                justify-content: center;
+                flex-direction: row;
+                flex-wrap: nowrap;
                 align-items: center;
-                cursor: pointer;
-                a {
-                    width: 100%;
-                    height: 100%;
-                    text-decoration: none;
+                justify-content: flex-end;
+                .base-red_social {
+                    width: 40px;
+                    height: 40px;
+                    background: white;
+                    border-radius: 100%;
+                    margin-left: 10px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    // margin-right: 10px;
-                    i {
-                        font-size: 16px;
-                        color: rgb(42, 42, 42);
-                        transition: all .5s ease;
+                    cursor: pointer;
+                    a {
+                        width: 100%;
+                        height: 100%;
+                        text-decoration: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        // margin-right: 10px;
+                        i {
+                            font-size: 16px;
+                            color: rgb(42, 42, 42);
+                            transition: all .5s ease;
+                        }
                     }
                 }
-            }
-            .base-red_social:hover {
-                a {
-                    i {
-                        color: #2078dc;
+                .base-red_social:hover {
+                    a {
+                        i {
+                            color: #2078dc;
+                        }
                     }
                 }
             }
         }
     }
-}
+    
+    @media (max-width: 720px) {
+        .base-contenedor-footer {
+            height: auto!important;
+        }
+        .base-interior-footer {
+            width: 90%;
+            max-width: 1500px;
+            height: auto!important;
+            // background: brown;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-between!important;
+            align-items: center!important;
+            padding: 10px 0;
+            .base-derechos {
+                width: auto;
+                height: 50%!important;
+                // background: rgb(17, 46, 141);
+                padding: 0 10px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-bottom: 10px;
+                .parrafo-footer {
+                    font-size: 16px;
+                    color: rgb(255, 255, 255);
+                    font-weight: 550;
+                    text-align: center;
+                    span {
+                        a {
+                            color: rgb(233, 233, 233);
+                            font-size: 16px;
+                            width: 100%;
+                            height: 100%;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .base-redes-sociales {
+                width: auto!important;
+                height: 50%!important;
+                // background: hotpink;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: flex-end;
+            }
+        }
+    }

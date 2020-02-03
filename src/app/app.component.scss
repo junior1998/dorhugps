@@ -1,7 +1,7 @@
 .base-contenedor {
     width: 100%;
     height: auto;
-    background: red;
+    // background: red;
     .base-navbar {
         width: 100%;
         height: 75px;
@@ -12,13 +12,13 @@
     section {
         width: 100%;
         height: calc(100% - 125px);
-        background: indigo;
+        // background: indigo;
     }
 }
 
 footer {
     width: 100%;
-    height: 80px;
+    height: auto;
     background: #2078dc;
     // display: flex;
     // justify-content: center;
