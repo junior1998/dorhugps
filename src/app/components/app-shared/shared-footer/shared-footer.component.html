@@ -2,13 +2,13 @@
     <div class="base-interior-footer">
         <div class="base-derechos">
             <p class="parrafo-footer">
-                © Copyright 2020 - 2024 Dorhu - Todos los derechos reservados
+                © Copyright 2020 - 2024 <span> <a href="https://www.dorhu.com/inicio" target="_blank" > Dorhu </a></span> - Todos los derechos reservados
             </p>
         </div>
         <div class="base-redes-sociales">
             <div *ngFor="let redSocial of redesSociales" class="base-red_social">
                 <a href="{{redSocial.enlace}}" target="_blank" title="{{redSocial.nommbre}}">
-                    <i class='fab {{redSocial.icono  }}'></i>
+                    <i class='fab {{redSocial.icono}}'></i>
                 </a>
                 <!-- <i class="fab fa-facebook-f"></i> -->
             </div>

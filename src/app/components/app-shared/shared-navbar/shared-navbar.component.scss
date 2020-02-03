@@ -6,9 +6,9 @@
         justify-content: center;
         box-shadow: 0px -12px 10px 5px black;
         .base-contenedor_navbar {
-            width: 80%;
+            width: 90%;
             height: 100%;
-            max-width: 1510px;
+            max-width: 1500px;
             display: flex;
             justify-content: space-between;
             .base-logo {
@@ -92,7 +92,7 @@
     
     @media (max-width: 1000px) {
         .base-contenedor_navbar {
-            width: 100%!important;
+            width: 95%!important;
         }
         .base-items {
             padding-right: 10px;
