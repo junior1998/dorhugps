@@ -33,28 +33,28 @@ export class InicioComponent implements OnInit {
     {
       icono: '../../../../assets/icono_servicios/iconos5.png',
       titulo: 'Límite de velocidad',
-      enlace: '#',
+      enlace: '#gps_card3',
       // tslint:disable-next-line: max-line-length
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
     },
     {
       icono: '../../../../assets/icono_servicios/iconos4.png',
       titulo: 'Historial y Reportes',
-      enlace: '#',
+      enlace: '#gps_card4',
       // tslint:disable-next-line: max-line-length
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
     },
     {
       icono: '../../../../assets/icono_servicios/iconos3.png',
       titulo: ' Seguimiento en tiempo real',
-      enlace: '#',
+      enlace: '#gps_card5',
       // tslint:disable-next-line: max-line-length
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
     },
     {
       icono: '../../../../assets/icono_servicios/iconos2.png',
       titulo: 'Control de flotas',
-      enlace: '#',
+      enlace: '#gps_card6',
       // tslint:disable-next-line: max-line-length
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi corrupti a earum fugiat enim magni est unde numquam. Ipsum corrupti vitae quam eligendi nulla maxime accusantium dolores debitis. Veritatis?'
     }

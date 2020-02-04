@@ -26,12 +26,12 @@
             justify-content: center;
             align-items: center;
             .base-contedor_texto {
-                width: 100%;
+                width: calc(100% - 20px);
                 height: auto;
                 // background: salmon;
                 display: flex;
                 flex-direction: column;
-                padding-right: 10px;
+                padding-right: 20px;
                 .base-titulo_texto {
                     width: 100%;
                     min-height: 50%;
@@ -101,7 +101,7 @@
         .base-imagen {
             width: 50%;
             height: 100%;
-            background: greenyellow;
+            // background: greenyellow;
             display: flex;
             align-items: center;
             .base-contenedor_imagen {
